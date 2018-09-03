@@ -17,22 +17,22 @@ struts2 漏洞环境源代码，主要是自己学习struts2漏洞所用，方�
 
 在IDEA中点击`File->New->Project from Existing Source `选中所需的`S2-0xx`文件夹，之后应该就是一路next
 
-简单配置一下Configuration![](img\5.png)
+简单配置一下Configuration![](img/5.png)
 
-![](img\1.png)
+![](img/1.png)
 
 Application server选择Tomcat目录，已经JRE对应版本
 
-![](img\2.png)
+![](img/2.png)
 
 右下方有个warning，点击一下fix
 
-![](img\3.png)
+![](img/3.png)
 
 如图所示添加一个Artifacts即可，然后就可以点击右上角的小虫子运行愉快的debug了
 
-![](img\4.png)
+![](img/4.png)
 
 做了个简单的gif
 
-![](img\2.gif)
+![](img/2.gif)
