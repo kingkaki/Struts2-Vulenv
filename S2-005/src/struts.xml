@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="GBK"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN"
+        "http://struts.apache.org/dtds/struts-2.1.7.dtd">
+<struts>
+    <!-- 指定全局国际化资源文件 -->
+    <constant name="struts.custom.i18n.resources" value="mess"/>
+    <!-- 指定国际化编码所使用的字符集 -->
+    <constant name="struts.i18n.encoding" value="UTF-8"/>
+    <!-- 所有的Action定义都应该放在package下 -->
+    <package name="test" extends="struts-default">
+        <action name="login" class="com.action.LoginAction">
+            <result name="success">/login.jsp</result>
+        </action>
+    </package>
+</struts>
